@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{
     background-color: rgb(22, 201, 141);
     color: rgba(255, 255, 255, 0.863);
@@ -5,3 +9,35 @@ body{
     font-size: 1.2rem;
 }
 
+nav{
+    background-color: rgb(15, 163, 114);
+}
+
+nav a{
+    margin-right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+a:hover{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(8, 216, 147);
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+a:active{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(8, 216, 147);
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+main{
+    margin-top: 35px;
+}
