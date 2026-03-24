@@ -41,3 +41,8 @@ a:active{
 main{
     margin-top: 35px;
 }
+
+img{
+    border-radius: 10px;
+    border: black 3px solid;
+}
